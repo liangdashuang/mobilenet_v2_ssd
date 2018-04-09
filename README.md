@@ -1,4 +1,4 @@
-MobileNet-SSD
+MobileNetV2-SSD
 ===========================
 This is a caffe implementation of MobileNet-SSD V2 detection network. It is refered to the model released by tensorflow api [https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/detection_model_zoo.md](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/detection_model_zoo.md).
 
