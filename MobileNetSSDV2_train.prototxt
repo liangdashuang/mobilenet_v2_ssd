@@ -4606,7 +4606,7 @@ layer {
   }
   convolution_param {
     pad: 1
-    num_output: 273
+    num_output: 63
     kernel_size: 3
     weight_filler {
       type: "msra"
@@ -4718,7 +4718,7 @@ layer {
   }
   convolution_param {
     pad: 1
-    num_output: 546
+    num_output: 126
     kernel_size: 3
     weight_filler {
       type: "msra"
@@ -4832,7 +4832,7 @@ layer {
   }
   convolution_param {
     pad: 1
-    num_output: 546
+    num_output: 126
     kernel_size: 3
     weight_filler {
       type: "msra"
@@ -4946,7 +4946,7 @@ layer {
   }
   convolution_param {
     pad: 1
-    num_output: 546
+    num_output: 126
     kernel_size: 3
     weight_filler {
       type: "msra"
@@ -5060,7 +5060,7 @@ layer {
   }
   convolution_param {
     pad: 1
-    num_output: 546
+    num_output: 126
     kernel_size: 3
     weight_filler {
       type: "msra"
@@ -5174,7 +5174,7 @@ layer {
   }
   convolution_param {
     pad: 1
-    num_output: 546
+    num_output: 126
     kernel_size: 3
     weight_filler {
       type: "msra"
@@ -5290,7 +5290,7 @@ layer {
     loc_loss_type: SMOOTH_L1
     conf_loss_type: SOFTMAX
     loc_weight: 1.0
-    num_classes: 3
+    num_classes: 21
     share_location: true
     match_type: PER_PREDICTION
     overlap_threshold: 0.5
