@@ -10,8 +10,11 @@ Pretrain model
 ===========================
 Caffe model from pascal voc 0712 dataset can be down from(https://pan.baidu.com/s/1Hht2LeFiJsxztrGwU5ZyOg).
 
+test script
+===========================
+mobile_test_save.py is an test file for only two class, you can modify it to suit your class
+
 To do
 ===========================
 1. an end to end training script for your own data
-2. test script
 
