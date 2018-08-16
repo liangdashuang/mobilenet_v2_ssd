@@ -18,7 +18,7 @@ if not os.path.exists(caffe_model):
 caffe.set_mode_gpu()
 caffe.set_device(2)
 net = caffe.Net(net_file,caffe_model,caffe.TEST)  
-CLASSES = ('background','serious', 'mid')
+CLASSES = ('background','aeroplane', 'bicycle')
 def preprocess(src):
     img = cv2.resize(src, (300,300))
     img = img - 127.5
